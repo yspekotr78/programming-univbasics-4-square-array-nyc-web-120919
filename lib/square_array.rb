@@ -1,10 +1,10 @@
 def square_array(numbers)
   counter=0
-  while counter<numbers.length do
+  while counter<numbers.length {
  #  puts numbers[counter]
     numbers[counter]=numbers[counter]*numbers[counter]
     counter +=1
-  end
+  }
 # puts numbers
   return numbers
 end
